@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Amazon Testing",
+        "description": "",
+        "id": "amazon-validation;amazon-testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15128251338,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser",
+            "match": {
+              "location": "Flipkart.launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33278448384,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to Amazon Website",
+            "match": {
+              "location": "Amazon.navigate_to_Amazon_Website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1729145781,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "validate the Amazon website",
+            "match": {
+              "location": "Amazon.validate_the_Amazon_website()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Validation",
+    "description": "",
+    "id": "amazon-validation",
+    "keyword": "Feature",
+    "uri": "C:/Users/657392/eclipse-workspace/MyFrame/src/Features/Amazon.feature"
+  }
+]
