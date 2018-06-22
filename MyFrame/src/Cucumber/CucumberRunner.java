@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		format = {"pretty","json:target/"},
 		features = {"C:\\Users\\657392\\eclipse-workspace\\MyFrame\\src\\Features"},
-		tags= {"@OneClaim"},
+		tags= {"@Amazon"},
 				glue={"stepDefinition"},
 				//plugin = {"html:src\\cucumber-html-report"}
 				plugin = {"pretty:STDOUT","html:D:\\Automation\\TestOutput\\Reports\\cucumber-pretty",
