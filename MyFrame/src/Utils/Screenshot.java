@@ -16,16 +16,18 @@ public class Screenshot {
 	static String strDate;
 	public static WebDriver driver;
 	static String screenShotPath;
+	static String systemPath;
 	public void launchBrowser() throws Exception {
 		
 		// Creating folder to place screenshots
 		Date date = new Date();  
 	    SimpleDateFormat formatter = new SimpleDateFormat("ddMMyyyymmss");  
 	    strDate= formatter.format(date);
-	    screenShotPath = "D:\\Automation\\TestOutput\\Screenshots\\"+strDate;
+	    systemPath = System.getProperty("user.dir");
+	    screenShotPath = "..\\TestOutput\\Screenshot\\"+strDate;
 		File newFolder = new File(screenShotPath);
 		newFolder.mkdir();
-		System.setProperty("webdriver.chrome.driver", "D:\\Automation\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", systemPath+"\\Drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 	}
 	

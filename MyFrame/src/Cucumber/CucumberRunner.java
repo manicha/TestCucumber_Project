@@ -17,9 +17,9 @@ import cucumber.api.junit.Cucumber;
 		tags= {"@Amazon"},
 				glue={"stepDefinition"},
 				//plugin = {"html:src\\cucumber-html-report"}
-				plugin = {"pretty:STDOUT","html:D:\\Automation\\TestOutput\\Reports\\cucumber-pretty",
-						  "json:D:\\Automation\\TestOutput\\Reports\\cucumber-json\\cucumber.json",
-						  "com.cucumber.listener.ExtentCucumberFormatter:D:\\Automation\\TestOutput\\Reports\\cucumber-extent\\report.html"
+				plugin = {"pretty:STDOUT","html:..\\TestOutput\\Reports\\cucumber-pretty",
+						  "json:..\\TestOutput\\Reports\\cucumber-json\\cucumber.json",
+						  "com.cucumber.listener.ExtentCucumberFormatter:..\\TestOutput\\Reports\\cucumber-extent\\report.html"
 		}
 		)
 
